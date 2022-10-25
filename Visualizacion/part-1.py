@@ -9,8 +9,8 @@ app.layout = html.Div(children=[
         style={'width': '50%', 'border': '1px solid red'},
         alt='image'),
 
-    html.H1(children='Isaac Hernandez-Cedeño', style={'color': 'blue'}),
-    html.P('Data Science Consultant at NEORIS', style={'color': 'green', 'border': '2px solid blue'})
+    html.H1(children='Jesús Eduardo Ramírez Ruíz', style={'color': 'blue'}),
+    html.P('Senior Developer at Deacero', style={'color': 'blue', 'border': '2px solid red'})
 ])
 
 if __name__ == '__main__':

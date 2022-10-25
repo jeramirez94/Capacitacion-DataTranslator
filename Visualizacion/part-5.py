@@ -6,7 +6,7 @@ import plotly.express as px
 
 import pandas as pd
 
-df = pd.read_csv('Downloads\\auto-mpg.csv')
+df = pd.read_csv('C:\\Users\\jeramirez\\Documents\\DataTranslator\\Visualizacion\\datasets\\auto-mpg.csv')
 
 df["mpg"] = df["mpg"].astype(int)
 a=df.iloc[:,8]

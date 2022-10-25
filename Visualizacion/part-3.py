@@ -6,7 +6,7 @@ import plotly.express as px
 
 import pandas as pd
 
-df = pd.read_csv('Downloads\\auto-mpg.csv')
+df = pd.read_csv('C:\\Users\\jeramirez\\Documents\\DataTranslator\\Visualizacion\\datasets\\auto-mpg.csv')
 
 app = dash.Dash(__name__)
 
@@ -14,9 +14,9 @@ fig = px.scatter(df, x="displ", y="weight",
                     log_x=True, size_max=55, trendline="ols")
 
 app.layout = html.Div(children=[
-    html.H1("Displacement vs Weight"),
+    html.H1("Desplazamiento vs Peso"),
     html.Img(
-        src='https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2017/02/futuro-clasico-alfa-romeo-4c.jpg',
+        src='https://c4.wallpaperflare.com/wallpaper/193/556/883/car-neon-chevrolet-corvette-race-cars-hd-wallpaper-preview.jpg',
         style = {'width': '80%'}),
     dcc.Graph(
         figure=fig
